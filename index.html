@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Certificate</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px; /* Typical mobile/app width */
+            background-color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            align-items: center;
+            padding-bottom: 20px;
+            font-size: 1.2em;
+            color: #333;
+            /* In a real app, you would use a back icon here */
+        }
+
+        .header a{
+            text-decoration: none;
+            color: #333;
+            font-size: 1.5em;
+        }
+        .header-text {
+            margin-left: 10px;
+            font-weight: bold;
+        }
+
+        /* Main Content Styling */
+        h1 {
+            font-size: 1.5em;
+            color: #333;
+            margin-top: 0;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .intro-text {
+            font-size: 0.9em;
+            line-height: 1.5;
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        /* Certificate Area */
+        .certificate-mockup {
+            width: 100%;
+            height: auto; /* Ensure aspect ratio is maintained */
+            margin-bottom: 25px;
+            border: 1px solid #ddd; /* Light border around the image area */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            /* Replace the background with the actual certificate image */
+            background-image: url('image_d074a0.jpg'); /* Use your image path */
+            background-size: cover;
+            background-position: center;
+            padding-top: 56.25%; /* 16:9 aspect ratio for mockup, adjust as needed */
+            position: relative;
+        }
+
+        /* LinkedIn Button */
+        .linkedin-button {
+            width: 100%;
+            padding: 15px;
+            background-color: white;
+            color: #0077B5; /* LinkedIn Blue */
+            border: 1px solid #0077B5;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-bottom: 25px;
+            font-weight: bold;
+        }
+        .linkedin-button:hover {
+            background-color: #f0f0f0;
+        }
+
+        /* Sharing Icons */
+        .share-section {
+            text-align: center;
+        }
+
+        .share-section p {
+            font-size: 1em;
+            color: #333;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-decoration: none;
+            line-height: 40px;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            /* Mockup styles for the icons */
+        }
+
+        .icon-x { background-color: black; }
+        .icon-whatsapp { background-color: #25D366; }
+        .icon-linkedin { background-color: #0077B5; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <a href="https://unstop.com" target="_blank" rel="noopener noreferrer">&larr;</a> <span class="header-text"> Download Certificate</span>
+    </div>
+
+    <h1>Certificate of Participation</h1>
+    
+    <p class="intro-text">
+        This certificate provided by Birla Institute of Technology (BIT), Mesra, Patna Campus is proof of the sheer grit, hard work, &
+        dedication of the participant through which he/she has
+        participated in the CosmoComet (Competitive Programming).
+        Unstop congratulates them on achieving yet another
+        milestone.
+    </p>
+
+    <div class="certificate-mockup" title="Certificate of Participation Image">
+        </div>
+
+    <button class="linkedin-button">
+        Add to LinkedIn profile
+    </button>
+
+    <div class="share-section">
+        <p>Share it on:</p>
+        <div class="social-icons">
+            <a href="#" class="icon-x">X</a> 
+            <a href="#" class="icon-whatsapp">W</a>
+            <a href="#" class="icon-linkedin">in</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
